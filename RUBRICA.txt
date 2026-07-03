@@ -1,0 +1,7 @@
+ESTE ES UN IMFORME PARA LA  RUBRICA DE TODO LO QUE HICE :
+
+Cuando me puse a integrar la lógica, la IA hizo un desastre con el alcance de las variables y mandó todo al carajo. Me saltó un ReferenceError porque metió la función renderizarFila donde no debía, así que los botones no hacían nada porque no encontraban la función por ningún lado. Me tocó mover esa lógica al nivel global y asegurar que el addEventListener estuviera bien amarrado a la carga de la página, para que todo respondiera como tiene que ser
+
+Después, el filtro que propuso era una basura: cada vez que buscabas algo, la interfaz brincaba y se veía del asco. Esa chapuza de andar ocultando elementos con CSS no servía, así que borré esa lógica y me puse a reconstruir la lista inyectando el contenido directamente con innerHTML. Eso dejó la cosa estable, rápida y sin errores raros al navegar entre géneros. Al final, depurar esto me dejó claro que no le puedes creer a ciegas a la máquina; si no controlas las funciones, los eventos y los arreglos de datos, el proyecto se te cae a pedazos a la primera. 
+
+Pero después de todo pude entenderme con la IA ,ya que recargaba la página y le volvía a preguntar todo para después seguír y avanzar aunque no todo es como espereba ya que no pude poner las imágenes y algunos botones no tienen color , pero se escucha que es lo importante ....
